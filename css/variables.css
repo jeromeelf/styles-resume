@@ -1,0 +1,20 @@
+/* colors */
+--principal-color: #323232;
+
+/* fonts size */
+--font-size-min: 12px;
+--font-size-extra-small: 13px;
+--font-size-small: 14px;
+--font-size-base: 15px;
+--font-size-medium-small: 16px;
+--font-size-medium: 20px;
+--font-size-medium-large: 22px;
+--font-size-large: 26px;
+--font-size-extra-large: 28px;
+--font-size-max: 36px;
+
+/* grid size */
+
+--mobile-max-width: 600px;
+--tablet-max-width: 1024px;
+--desktop-min-width:1025px;

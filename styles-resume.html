@@ -1,0 +1,37 @@
+<link rel="import" href="../polymer/polymer-element.html">
+<link rel="import" href="css/variables.css">
+
+<dom-module id="styles-resume">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <h2>Hello [[prop1]]!</h2>
+  </template>
+
+  <script>
+    /**
+     * `styles-resume`
+     * 
+     *
+     * @customElement
+     * @polymer
+     * @demo demo/index.html
+     */
+    class StylesResume extends Polymer.Element {
+      static get is() { return 'styles-resume'; }
+      static get properties() {
+        return {
+          prop1: {
+            type: String,
+            value: 'styles-resume'
+          }
+        };
+      }
+    }
+
+    window.customElements.define(StylesResume.is, StylesResume);
+  </script>
+</dom-module>
